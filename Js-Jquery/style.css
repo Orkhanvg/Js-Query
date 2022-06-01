@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:color(360deg,rgb(189, 47, 47));
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px 450px;
+    background:linear-gradient(90deg,rgb(63, 36, 135),rgb(8, 147, 108));
+    width: 650px;
+    height: 450px;
+    border-radius: 15px;
+}
+#username,
+#password{
+    width: 250px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.checkbox{
+    margin: 10px;
+    position: relative;
+    left: -65px;
+}
+.checkbox #check{
+    margin: 5px;
+}
+.welcome{
+    width: 450px;
+    color: rgb(178, 33, 52);
+    height: 150px;
+    font-size: 45px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 568px;
+    background-color: rgb(0, 5, 5);
+    border-radius: 15px;
+    
+
+}
+#signup{
+    background:linear-gradient(45deg,rgb(0, 15, 63),rgb(10, 95, 121));
+    border: none;
+    font-weight: bold;
+    position: relative;
+    left:42px;
+}
